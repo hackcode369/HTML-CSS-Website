@@ -1,0 +1,19 @@
+*{
+    background-color: hsl(270, 29%, 8%);
+    
+}
+.container .navbar ul{
+    text-decoration: none;
+    list-style: none;
+    color: blueviolet;
+}
+.container .navbar{
+    background-color: hsl(271, 60%, 81%);
+    display: block;
+}
+.footercontainer{
+    display: flex;
+    background-color: hsl(271, 64%, 66%);
+    color: hsl(208, 61%, 68%);
+}
+  
