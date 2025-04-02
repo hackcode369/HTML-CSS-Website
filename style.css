@@ -1,19 +1,35 @@
 *{
-    background-color: hsl(270, 29%, 8%);
-    
+    background-color: hsl(120, 26%, 7%);
 }
-.container .navbar ul{
-    text-decoration: none;
-    list-style: none;
-    color: blueviolet;
+#myH1{
+    color: hsl(88, 87%, 49%);
 }
-.container .navbar{
-    background-color: hsl(271, 60%, 81%);
-    display: block;
-}
-.footercontainer{
+#navbar ul{
     display: flex;
-    background-color: hsl(271, 64%, 66%);
-    color: hsl(208, 61%, 68%);
+    padding: 5px 20px;
+    justify-content: flex-end;
 }
-  
+#navbar ul li{
+    text-decoration:none;
+    list-style: none;
+    display: flex;
+}
+#navbar ul li a{
+    color: hsl(108, 83%, 60%);
+    padding: 5px 20px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    color: hsl(108, 34%, 77%);
+}
+#footer{
+    background-color: rgb(160, 241, 135);
+    color: hsl(118, 80%, 23%);
+}
+#home{
+    color: hsl(128, 84%, 40%);
+}
+#homepage{
+    color: hsl(104, 46%, 89%);
+}
