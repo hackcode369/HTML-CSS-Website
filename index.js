@@ -1,9 +1,9 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const navItems = document.querySelectorAll('.navbar ul li');
+document.addEventListener('DOMContentLoaded', () => {       // Wait for the DOM to be fully loaded
+    const navItems = document.querySelectorAll('.navbar ul li');  // Select all navbar items
     
-    navItems.forEach(item => {
-        item.addEventListener('click', () => {
-            alert(`You clicked on ${item.textContent}`);
+    navItems.forEach(item => {                                     // Loop through each nav item
+        item.addEventListener('click', () => {                     // Add event listener to each nav item
+            alert(`You clicked on ${item.textContent}`);  // alert the text of the clicked item
         });
     });
 });
